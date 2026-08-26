@@ -69,6 +69,6 @@ public class ReverseArrays {
         int[] arr3 = originalArray.clone();
         reverseRecursion(arr3, 0, arr3.length - 1);
         System.out.println("[Cach 3 - De quy]:       " + java.util.Arrays.toString(arr3));
-
+        //cre: Gemini pro 1 nam cho sinh vien:))
     }
 }
