@@ -9,14 +9,16 @@ package Lec07_Strings;
  * @author vomin
  */
 import java.util.*;
+
 public class Exercise_5_Check_Prefix_Suffix_And_Characters {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter file name: ");
+        System.out.print("Enter file name: ");
         String s = sc.nextLine();
-        System.out.println("Starts with report: " + s.startsWith(s));
-        System.out.println("Ends with .pdf: " + s.endsWith(s));
+        System.out.println("Starts with report: " + s.startsWith("report"));
+        System.out.println("Ends with .pdf: " + s.endsWith(".pdf"));
         System.out.println("First character = " + s.charAt(0));
-        System.out.println("Last character = " + s.charAt(3));
+        System.out.println("Last character = " + s.charAt(s.length() - 1));
     }
 }
